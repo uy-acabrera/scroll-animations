@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+.animation {
+  height: 100vh;
+  background-color: lightgreen;
+  position: relative;
+  overflow: hidden;
+}
+
+.paper-plane {
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
